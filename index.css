@@ -45,7 +45,7 @@ nav ul li a .active{
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
 }
 
-@media (max-width:940px){
+@media (max-width:900px){
     nav ul{
         position: fixed;
         top: 80px;
@@ -54,9 +54,7 @@ nav ul li a .active{
         width: 300px;
         display: block;
         text-align: center;
-        background-color: bisque;
-       
-        
+        background-color: bisque;     
     }
     nav ul li{
         margin-top: 25px;
