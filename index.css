@@ -33,7 +33,8 @@ nav ul li a{
     border-radius: 10px;
     transition: all 0.5s ease;
 }
-nav ul li a:hover{
+nav ul li a:hover,
+nav ul li a .active{
     background-color: aqua;
 }
 
@@ -42,4 +43,34 @@ nav ul li a:hover{
     color: brown;
     font-weight: 700;
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+@media (max-width:940px){
+    nav ul{
+        position: fixed;
+        top: 80px;
+        left: 0;
+        height: 700px;
+        width: 300px;
+        display: block;
+        text-align: center;
+        background-color: bisque;
+       
+        
+    }
+    nav ul li{
+        margin-top: 25px;
+        
+    }
+    nav ul li a{
+        font-size: 20px;
+       transition: all;
+       transition-duration: 0.3s;
+       transition-timing-function: ease;
+    }
+    nav ul li a:hover{
+        color: black;
+        background-color: aqua;
+    }
+
 }
